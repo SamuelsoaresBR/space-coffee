@@ -1,0 +1,14 @@
+.botao-p{
+  border: 1px solid #cc8833;
+  padding: 10px 15px;
+  border-radius: 30px;
+  background: rgba(238, 170, 102, .26);
+  display: flex;
+  gap: 15px;
+  transition: .3s;
+}
+
+.botao-p:hover{
+  background: #332200;
+  border: 1px solid #221700;
+}

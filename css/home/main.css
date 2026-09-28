@@ -1,0 +1,40 @@
+.banner img {
+  height: 642px;
+  object-fit: cover;
+  position: absolute;
+  z-index: -5;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: .3s;
+}
+
+
+.main-conteudo{
+  margin: 0 10px;
+}
+
+.main-conteudo span{
+  margin-bottom: 5px;
+}
+
+.main-conteudo h1 {
+  max-width: 313px;
+  margin-bottom: 10px;
+}
+
+.main-conteudo p {
+  max-width: 400px;
+  margin-bottom: 30px;
+}
+
+
+
+
+
+
+@media (max-width: 720px){
+  .banner img{
+    height: 450px;
+  }
+}
