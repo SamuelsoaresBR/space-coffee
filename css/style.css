@@ -1,3 +1,7 @@
 @import './global/body.css';
+@import './utilidades/container.css';
 @import './utilidades/tipografia.css';
 @import './utilidades/cores.css';
+@import './utilidades/elementos.css';
+@import './global/header.css';
+@import './home/main.css';
