@@ -1,0 +1,48 @@
+.titulo {
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 400;
+  font-size: 2.5rem;
+}
+
+.titulo-b {
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+.mini-titulo{
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: 10%;
+}
+
+.mini-titulo-b{
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 10%;
+}
+
+.txt {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1.375rem;
+}
+.txt-b {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 1.375rem;
+}
+
+.mini-txt {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1.125rem;
+}
+
+.mini-txt-b {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 1.125rem;
+}
