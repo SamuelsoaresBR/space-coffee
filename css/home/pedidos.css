@@ -1,0 +1,55 @@
+.lista-conteudo{
+  margin: 70px 10px;
+}
+
+.lista-coffee {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.lista-coffee li{
+  display: block;
+  min-width: 280px;
+  background: #F3F2F2;
+  width: fit-content;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px 2px rgba(0,0,0,.05);
+  border: 2px solid transparent;
+  transition: .3s;
+}
+
+.lista-coffee li:hover{
+  border: 2px solid #EEAA66;
+}
+
+.lista-coffee img {
+  border-radius: 10px 10px 0 0 ;
+  width: 100%;
+}
+
+.card-conteudo {
+  margin: 15px 0 0 20px;
+}
+
+.titulo-item{
+  margin-bottom: 10px;
+}
+
+.card-conteudo p {
+  max-width: 280px;
+  margin-bottom: 10px;
+}
+
+.valor {
+  padding-bottom: 15px;
+}
+
+@media (max-width: 660px) {
+  .lista-coffee{
+    flex-wrap: nowrap;
+    justify-content: start;
+    overflow-x: scroll ;
+  }
+}
