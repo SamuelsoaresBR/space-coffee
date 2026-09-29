@@ -12,3 +12,22 @@
   background: #332200;
   border: 1px solid #221700;
 }
+
+
+.titulo-conteudo h2{
+  text-align: center;
+}
+
+.titulo-conteudo h2::before{
+  content: '';
+  width: 75px;
+  height: 2px;
+  display: block;
+  background: #EEAA66;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.titulo-conteudo span{
+  text-align: center;
+}
