@@ -13,6 +13,22 @@
   border: 1px solid #221700;
 }
 
+.botao-2{
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  gap: 10px;
+  border: 1px solid #332200;
+  padding: 10px 15px;
+  transition: .3s;
+  border-radius: 30px;
+}
+
+.botao-2:hover{
+  background: #DD9944;
+  border: 1px solid #DD9944;
+}
+ 
 
 .titulo-conteudo h2{
   text-align: center;

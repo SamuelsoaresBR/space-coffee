@@ -1,0 +1,43 @@
+.sobre-bg{
+  background: #E3E1E0;
+  margin-bottom: 60px;
+}
+
+.sobre-conteudo{
+  margin: 0 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.sobre-txt h2::before{
+  content: '';
+  width: 75px;
+  height: 2px;
+  display: block;
+  background: #EEAA66;
+  margin-bottom: 10px;
+}
+
+.sobre-txt h2 {
+  margin-bottom: 10px;
+}
+
+.sobre-txt p {
+  max-width:  515px;
+  margin-bottom: 30px;
+}
+
+
+@media (max-width: 1230px) {
+  .sobre-conteudo{
+    grid-template-columns: 1fr;
+    gap: 30px;
+    justify-items: center;
+    margin: 0;
+  }
+  .sobre-txt {
+    margin: 0 10px;
+    margin-bottom: 30px;
+  }
+}
