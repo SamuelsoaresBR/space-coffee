@@ -53,16 +53,24 @@
 
 @media (max-width: 720px) {
 
+.header-conteudo{
+  margin: 0;
+}
+
+.header-conteudo img{
+  margin-left: 10px;
+}
+
   .navegacao{
     display: block;
     position: absolute;
-    width: 100%;
+    width: 0%;
     top: 60px;
     right: 0;
     background: #1B1A1A;
     transition: .6s;
     z-index: 1000;
-    height: 0px;
+    height: calc(34vh - 60px);
     visibility: hidden;
     overflow-y: hidden;
   }
@@ -75,9 +83,9 @@
   }
  
   #nav.active .navegacao {
-    height: calc(100vh - 60px);
+    width: 30%;
     visibility: visible;
-    overflow-y: auto;
+    overflow-x: auto;
   }
 
     #btn-mobile{
