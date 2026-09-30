@@ -61,19 +61,10 @@
   margin-left: 10px;
 }
 
-  .navegacao{
-    display: block;
-    position: absolute;
-    width: 0%;
-    top: 60px;
-    right: 0;
-    background: #1B1A1A;
-    transition: .6s;
-    z-index: 1000;
-    height: calc(34vh - 60px);
-    visibility: hidden;
-    overflow-y: hidden;
-  }
+.navegacao {
+ display: none;
+}
+
   .logo img{
     width: 180px;
     transition: .3s;
@@ -82,11 +73,6 @@
     margin-bottom: 60px;
   }
  
-  #nav.active .navegacao {
-    width: 30%;
-    visibility: visible;
-    overflow-x: auto;
-  }
 
     #btn-mobile{
     display: flex;
