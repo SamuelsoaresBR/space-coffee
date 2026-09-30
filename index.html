@@ -18,11 +18,11 @@
     <div class="container">
       <div class="header-conteudo">
         <div class="logo"><img src="./img/logo.svg" alt="Logo Space Coffee" draggable="false"></div>
-        <nav>
-          <ul class="mini-txt cor-w1 navegacao">
+        <nav id="nav">
+          <button class="mini-txt cor-w1" id="btn-mobile" aria-expanded="false">Menu <span id="hamburguer"></span></button>
+          <ul class="mini-txt cor-w1 navegacao" data-menu="suave">
             <li class="active"><a href="./">Início</a></li>
             <li><a href="#sobre">Sobre</a></li>
-            <li><a href="./">Menu</a></li>
             <li><a href="#contato">Contato</a></li>
           </ul>
         </nav>
@@ -141,10 +141,9 @@
                 </div>
                 <a class="mini-txt cor-w2 assinatura" href="https://samuelsoaresbr.github.io/portfolio-samuel-front-end/">Desenvolvido por Samuel S.</a>
               </div>
-
             </div>
             </footer>
-
+            <script type="module" src="js/script.js"></script>
 </body>
 
 </html>
