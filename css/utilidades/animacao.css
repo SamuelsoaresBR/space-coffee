@@ -3,7 +3,7 @@
 }
 
 .js [data-anima="show-right"].ativo {
-  animation: show-right .5s forwards;
+  animation: show-right .7s forwards;
 }
 
 @keyframes show-right{
