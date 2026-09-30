@@ -1,0 +1,51 @@
+
+#contato {
+  margin-bottom: 50px;
+}
+#contato .titulo-conteudo{
+  margin-bottom: 50px;
+}
+
+.contato-conteudo{
+  margin: 0 10px;
+}
+
+.form-contato {
+  gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 30px;
+}
+
+.form-contato input{
+  padding: 15px;
+  border-radius: 5px;
+  border: 2px solid #C9C6C2;
+}
+
+.form-contato input::placeholder,
+.form-contato textarea::placeholder{
+  color: #C9C6C2;
+}
+
+.form-contato input:focus,
+.form-contato textarea:focus{
+  outline: 2px solid #cc8833;
+}
+
+.form-contato textarea {
+  padding: 15px;
+  grid-column: 1/-1;
+}
+
+.form-contato textarea {
+  height: 150px;
+  border-radius: 5px;
+  border: 2px solid #C9C6C2;
+}
+
+@media (max-width: 500px) {
+  .form-contato {
+   grid-template-columns: 1fr;
+  }
+}

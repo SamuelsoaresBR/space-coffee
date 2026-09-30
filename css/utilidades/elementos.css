@@ -11,6 +11,7 @@
 .botao-p:hover{
   background: #332200;
   border: 1px solid #221700;
+  gap: 20px;
 }
 
 .botao-2{
@@ -27,11 +28,27 @@
 .botao-2:hover{
   background: #DD9944;
   border: 1px solid #DD9944;
+  gap: 20px;
+}
+
+.botao-3{
+  display: block;
+  margin: 0 auto;
+  padding: 15px 100px;
+  border-radius: 30px;
+  border: none;
+  background: #CC8833;
+  transition: .3s;
+}
+
+.botao-3:hover{
+  background: #DD9944;
 }
  
 
 .titulo-conteudo h2{
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .titulo-conteudo h2::before{
