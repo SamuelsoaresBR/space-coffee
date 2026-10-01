@@ -5,4 +5,5 @@ import MenuMobile from './modules/menu-mobile.js';
 const scrollSuave = new ScrollSuave('[data-menu="suave"] a[href^="#"]');
 scrollSuave.init();
 
+Animar();
 MenuMobile();
